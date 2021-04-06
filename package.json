@@ -1,0 +1,15 @@
+{
+  "name": "commit-hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ua-lock/commit-hooks.git",
+  "author": "ua-lock <ggtbh@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "devmoji": "^2.2.0",
+    "husky": "^6.0.0"
+  }
+}
