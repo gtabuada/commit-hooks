@@ -1,7 +1,7 @@
 {
-  "name": "commit-hooks",
+  "name": "@ua-lock/commit-hooks",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".cz.config.js",
   "repository": "git@github.com:ua-lock/commit-hooks.git",
   "author": "ua-lock <ggtbh@outlook.com>",
   "license": "MIT",
