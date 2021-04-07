@@ -14,5 +14,9 @@
   "devDependencies": {
     "devmoji": "^2.2.0",
     "husky": "^6.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0"
   }
 }
