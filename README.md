@@ -19,9 +19,10 @@ Currently (v1) it only adds a *pre-commit* hook which ensures [conventional comm
 ---
 ### Future additions/improvements:
  - [ ] (hook) pre-commit linting
- - [ ]  optionally disable emoji decoration
+ - [ ] optionally disable emoji decoration
  - [ ] ditch Husky, manage hooks manually
  - [ ] gif demonstration in readme
+ - [ ] option to uninstall hooks & configs
 
 [Devmoji]:https://www.npmjs.com/package/devmoji
 [Husky]:https://www.npmjs.com/package/husky
