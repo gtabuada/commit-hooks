@@ -1,6 +1,8 @@
 # Commit Hooks v1
 Quickly add Git hooks to your repository.
 ---
+![Commit Hooks - Practical demonstration](https://i.imgur.com/igRO2VX.gif)
+
 Usage: 
 ```bash
 npx commit-hooks
