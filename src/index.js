@@ -5,6 +5,7 @@ const chalk = require('chalk')
 const installHooks = require('./installHooks')
 const checkValidProject = require('./checkValidProject')
 const checkPackagerUsed = require('./checkPackagerUsed')
+const checkGitRepo = require('./checkGitRepo')
 
 const [, , ...arguments] = process.argv
 const validArguments = []
@@ -18,6 +19,14 @@ if (arguments.length > 0 && checkValid.has(false)) {
 
 if (!checkValidProject()) {
   console.error(chalk.redBright('\n ❌ No package.json found in project root folder.'))
+  process.exit(1)
+}
+
+if (!checkGitRepo()) {
+  console.error(
+    chalk.redBright(
+      '\n ❌ No Git repository found in current folder. Run `git init` before installing hooks.'
+    ))
   process.exit(1)
 }
 
@@ -49,4 +58,5 @@ if (questions.length > 0) {
     .prompt(questions)
     .then((answers) => installHooks(answers, packager))
 }
-return installHooks({}, packager, arguments)
+
+installHooks({}, packager, arguments)
