@@ -14,8 +14,7 @@
     "start": "node src/index.js"
   },
   "devDependencies": {
-    "devmoji": "^2.2.0",
-    "husky": "^6.0.0"
+    "devmoji": "^2.2.0"
   },
   "dependencies": {
     "chalk": "^4.1.0",
