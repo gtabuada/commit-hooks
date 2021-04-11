@@ -11,11 +11,11 @@
     "commit-hooks": "src/index.js"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "postinstall": "npx commit-hooks"
   },
   "devDependencies": {
-    "devmoji": "^2.2.0",
-    "husky": "^6.0.0"
+    "devmoji": "^2.2.0"
   },
   "dependencies": {
     "chalk": "^4.1.0",
