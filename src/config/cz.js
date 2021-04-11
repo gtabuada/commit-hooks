@@ -1,7 +1,7 @@
 module.exports = `module.exports = {
   types: [
     { value: 'feat', name: 'A new feature' },
-    { value: 'bug', name: 'A bug fix' },
+    { value: 'fix', name: 'A bug fix' },
     { value: 'docs', name: 'Documentation only changes' },
     { value: 'style', name: 'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)' },
     { value: 'refactor', name: 'A code change that neither fixes a bug nor adds a feature' },
