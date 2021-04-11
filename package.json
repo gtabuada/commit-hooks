@@ -11,7 +11,8 @@
     "commit-hooks": "src/index.js"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "postinstall": "npx commit-hooks"
   },
   "devDependencies": {
     "devmoji": "^2.2.0"
