@@ -2,14 +2,23 @@
 ### Quickly add heavily opinionated Git commit hooks to your repository.
 ![Commit Hooks - Practical demonstration](https://i.imgur.com/igRO2VX.gif)
 
-Usage: 
+### Usage
+
+Run the following command in a project that was already intialized with `git init` and has a package.json file in it's root directory:
+
 ```bash
 npx commit-hooks
 ```
 
+That's all! For demonstration, [see the repository commit messages].
+
+---
+### About this project
+
+
 This ~~package~~ script will install the development-only package [Devmoji] and write the required configuration and git hook files. Its purpose is to serve as a single command that will give you some commit validation without any configuration.
 
-Currently (v1), it only adds a *pre-commit* hook which ensures [conventional commit messages] and decorate the messages with a set of emojis mapped from [Gitmoji] and some personal choices. There are plans for adding *pre-commit* linting & formatting (ESLint,  Prettier) hooks and other config options in the near future. For demonstration, [see the repository commit messages].
+Currently (v1), it only adds a *pre-commit* hook which ensures [conventional commit messages] and decorate the messages with a set of emojis mapped from [Gitmoji] and some personal choices. There are plans for adding *pre-commit* linting & formatting (ESLint,  Prettier) hooks and other config options in the near future. [See here for a list of planned features](#future-additions/improvements).
 
 ### Why `.cz-config.js` if there is no commitizen support (yet)?
 
