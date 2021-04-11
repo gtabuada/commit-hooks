@@ -1,5 +1,5 @@
 module.exports = {
-  types: ["docker", "revert", "gitignore", "ux", "types", "config"],
+  types: ["docker", "revert", "gitignore", "ux", "types", "config", "release"],
   devmoji: [
     { code: "docker", emoji: "whale" },
     { code: "revert", gitmoji: "wastebasket" },
