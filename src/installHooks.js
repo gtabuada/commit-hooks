@@ -13,7 +13,7 @@ const installHooks = (answers, packager) => {
   const installCommand = pkg === 'yarn' ? 'add' : 'install'
 
   /* config files */
-  const czConfigPath = path.resolve(process.cwd(), '.cz.config.js')
+  const czConfigPath = path.resolve(process.cwd(), '.cz-config.js')
   const devmojiConfigPath = path.resolve(process.cwd(), 'devmoji.config.js')
   /* hook files */
   const commitMsgHookPath = path.resolve(process.cwd(), '.git', 'hooks', 'prepare-commit-msg')
